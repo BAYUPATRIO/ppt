@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentasi Teknologi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    <style>
+        body {
+            background: linear-gradient(120deg, #000428, #004e92);
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .reveal {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .reveal .slides {
+            max-width: 80vw;
+            max-height: 80vh;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+        .slide-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+        }
+        .slide-icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+            color: cyan;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        /* Media Query untuk HP */
+        @media screen and (max-width: 768px) {
+            .reveal .slides {
+                max-width: 95vw;
+                max-height: 95vh;
+                padding: 10px;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            p {
+                font-size: 1em;
+            }
+            .slide-icon {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-transition="zoom"><div class="slide-content"><i class="fas fa-microchip slide-icon"></i><h2>Selamat Datang</h2><p>Presentasi Teknologi Masa Kini</p></div></section>
+            <section data-transition="fade"><div class="slide-content"><i class="fas fa-lightbulb slide-icon"></i><h2>Anggota Kelompok</h2><p>Teknologi mempermudah kehidupan.</p></div></section>
+            <section data-transition="convex"><div class="slide-content"><i class="fas fa-robot slide-icon"></i><h2>Perkembangan AI</h2><p>AI mengubah industri.</p></div></section>
+            <section data-transition="concave"><div class="slide-content"><i class="fas fa-wifi slide-icon"></i><h2>Internet of Things (IoT)</h2><p>Perangkat saling terhubung untuk efisiensi.</p></div></section>
+            <section data-transition="zoom"><div class="slide-content"><i class="fas fa-lock slide-icon"></i><h2>Blockchain</h2><p>Keamanan dan transparansi data.</p></div></section>
+            <section data-transition="fade"><div class="slide-content"><i class="fas fa-cloud slide-icon"></i><h2>Cloud Computing</h2><p>Menyimpan dan mengakses data secara fleksibel.</p></div></section>
+            <section data-transition="convex"><div class="slide-content"><i class="fas fa-shield-alt slide-icon"></i><h2>Keamanan Siber</h2><p>Menjaga data dari ancaman dunia maya.</p></div></section>
+            <section data-transition="concave"><div class="slide-content"><i class="fas fa-database slide-icon"></i><h2>Big Data</h2><p>Mengelola dan menganalisis data dalam jumlah besar.</p></div></section>
+            <section data-transition="zoom"><div class="slide-content"><i class="fas fa-signal slide-icon"></i><h2>Teknologi 5G</h2><p>Kecepatan internet yang lebih tinggi.</p></div></section>
+            <section data-transition="fade"><div class="slide-content"><i class="fas fa-vr-cardboard slide-icon"></i><h2>Augmented Reality (AR) & Virtual Reality (VR)</h2><p>Interaksi digital yang lebih nyata.</p></div></section>
+            <section data-transition="convex"><div class="slide-content"><i class="fas fa-robot slide-icon"></i><h2>Robotika</h2><p>Otomatisasi dalam berbagai bidang.</p></div></section>
+            <section data-transition="concave"><div class="slide-content"><i class="fas fa-microchip slide-icon"></i><h2>Teknologi Masa Depan</h2><p>Prediksi inovasi mendatang.</p></div></section>
+            <section data-transition="zoom"><div class="slide-content"><i class="fas fa-users slide-icon"></i><h2>Dampak Sosial</h2><p>Bagaimana teknologi mengubah kehidupan kita?</p></div></section>
+            <section data-transition="fade"><div class="slide-content"><i class="fas fa-check-circle slide-icon"></i><h2>Kesimpulan</h2><p>Teknologi terus berkembang dan memberikan manfaat.</p></div></section>
+            <section data-transition="convex"><div class="slide-content"><i class="fas fa-handshake slide-icon"></i><h2>Terima Kasih</h2><p>Q&A</p></div></section>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            width: "100%",
+            height: "100%",
+            transition: 'slide',
+            slideNumber: true,
+            backgroundTransition: 'fade'
+        });
+    </script>
+</body>
+</html>
