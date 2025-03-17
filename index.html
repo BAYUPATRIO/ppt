@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentasi Teknologi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
@@ -14,12 +14,14 @@
             overflow: hidden;
         }
         .reveal {
-            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             height: 100vh;
         }
         .reveal .slides {
-            width: 100%;
-            height: 100%;
+            max-width: 80vw;
+            max-height: 80vh;
             padding: 20px;
             border-radius: 10px;
             background: rgba(0, 0, 0, 0.6);
@@ -46,13 +48,9 @@
         }
         /* Media Query untuk HP */
         @media screen and (max-width: 768px) {
-            .reveal {
-                width: 100vw;
-                height: 100vh;
-            }
             .reveal .slides {
-                width: 100%;
-                height: 100%;
+                max-width: 95vw;
+                max-height: 95vh;
                 padding: 10px;
             }
             h2 {
